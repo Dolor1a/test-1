@@ -11,7 +11,7 @@ namespace WindowsFormsApp1
         public PortTest()
         {
             InitializeComponent();
-            Control.CheckForIllegalCrossThreadCalls = false;//设置该属性 为false
+            Control.CheckForIllegalCrossThreadCalls = false;//设置该属性 1为false
             this.MaximizeBox = false;
             this.FormBorderStyle =FormBorderStyle.FixedSingle;
             
